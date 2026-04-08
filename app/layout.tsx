@@ -7,9 +7,30 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.japw.lol'),
   title: 'JAPW - A Better Pinterest Desktop Experience',
   description: 'A Windows app that lets you browse Pinterest without the clutter. Bulk downloads, local collections, and a resolution filter.',
   generator: 'v0.app',
+  openGraph: {
+    title: 'JAPW - A Better Pinterest Desktop Experience',
+    description: 'A Windows app that lets you browse Pinterest without the clutter. Bulk downloads, local collections, and a resolution filter.',
+    url: 'https://www.japw.lol',
+    siteName: 'JAPW',
+    images: [
+      {
+        url: '/images/app-screenshot.png',
+        width: 1200,
+        alt: 'JAPW desktop app',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'JAPW - A Better Pinterest Desktop Experience',
+    description: 'A Windows app that lets you browse Pinterest without the clutter. Bulk downloads, local collections, and a resolution filter.',
+    images: ['/images/app-screenshot.png'],
+  },
   icons: {
     icon: [
       {
