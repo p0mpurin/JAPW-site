@@ -44,7 +44,7 @@ export function Header() {
         
         {/* CTA */}
         <Button size="sm" className="gap-2" asChild>
-          <a href="https://github.com/p0mpurin/JAPW/releases/download/v1.0.0-beta/JAPW.exe">
+          <a href="https://github.com/p0mpurin/JAPW/releases/download/v1.1.0-beta/JAPW.exe">
             <Download className="w-3.5 h-3.5" />
             <span className="hidden sm:inline">Download</span>
           </a>

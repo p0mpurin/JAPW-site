@@ -29,7 +29,7 @@ export function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
           <Button size="lg" className="gap-2 text-base px-6 h-12" asChild>
-            <a href="https://github.com/p0mpurin/JAPW/releases/download/v1.0.0-beta/JAPW.exe">
+            <a href="https://github.com/p0mpurin/JAPW/releases/download/v1.1.0-beta/JAPW.exe">
               <Download className="w-4 h-4" />
               Download for Windows
               <ArrowRight className="w-4 h-4" />

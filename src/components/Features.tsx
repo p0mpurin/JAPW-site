@@ -57,7 +57,7 @@ export function Features() {
           <FeatureCard
             tag="stack"
             name="Single executable"
-            desc="Built with Playwright, Flask, and pywebview. Packaged into one .exe through PyInstaller — download it and run it."
+            desc="Built with Playwright, Flask, and pywebview. Packaged into one .exe through PyInstaller download it and run it."
             wide
           />
         </div>
